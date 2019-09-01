@@ -14,10 +14,6 @@ hr {
   margin-top: 5%;
 }
 
-.country {
-  width: 30px;
-}
-
 h3, h4, h5 {
   color: #fff;
 }
@@ -27,7 +23,7 @@ h3 {
 }
 
 .section-title {
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
@@ -127,7 +123,7 @@ a:hover {
 #about {
   background-color: #022c43;
   padding: 5% 25%;
-  height: 100vh;
+  height: 100vh; /* need to change this */
 }
 
 .quote {
@@ -144,6 +140,11 @@ a:hover {
 
 .about-image {
   border-radius: 50%;
+}
+
+.my-description {
+  color: #fff;
+  font-size: 1.1rem;
 }
 
 /* experiences Section */
@@ -336,8 +337,7 @@ a:hover {
 }
 
 .project-card-image {
-  width: 90%;
-  margin-left: 5%;
+  width: 40px;
   border-radius: 1rem;
 }
 
@@ -354,6 +354,7 @@ a:hover {
   padding: 1%;
   border-radius: 1rem;
   margin-top: 2%;
+  width: 100%;
 }
 
 .programs-subtitle {
